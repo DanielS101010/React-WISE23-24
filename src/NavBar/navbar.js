@@ -10,10 +10,6 @@
         const shoppingCard = useSelector((state) =>{return state.shoppingCard})
         const loggedIn = useSelector((state) => { return state.loggedIn })
 
-        useEffect(()=>{
-            let x = Math.random()
-        },[])
-
         return (
             <div className="NavBar">
                 <div className="NavBar__Title">
