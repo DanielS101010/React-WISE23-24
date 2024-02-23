@@ -1,0 +1,12 @@
+.App{
+    display: flex; 
+    height: 100vh;
+    flex-direction: column;
+    width: 100%;
+ }
+ 
+ .Content{
+     flex: 1;
+     display: flex;
+     justify-content: center;
+ }

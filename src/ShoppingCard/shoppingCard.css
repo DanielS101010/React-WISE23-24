@@ -1,0 +1,16 @@
+.warenkorb{
+    display: flex;
+    flex-direction: column;
+}
+
+.Image img{
+    position: left;
+    width: 10em;
+    height: auto;
+}
+.article{
+    flex-direction:row;
+}
+.button_preis{
+    margin-top: 5em;
+}

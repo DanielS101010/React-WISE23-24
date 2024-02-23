@@ -1,0 +1,12 @@
+.Filter{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230,230,230);
+    justify-content: left;
+    width: 10em;
+    height: 20em;
+}
+
+.subcategories{
+    margin-left: 1em;
+}

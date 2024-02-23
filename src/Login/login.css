@@ -1,0 +1,25 @@
+.Login{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.1em;
+}
+
+.Login label,
+.Login input{
+    display: block;
+    width: 20em;
+    padding:0.1em;
+}
+
+.Login button{
+    padding: 0.1em;
+    width: 10em;
+    margin-top: 10px;
+}
+
+.LinkSignUp{
+    margin:1px; 
+    margin-top: 5px;
+}

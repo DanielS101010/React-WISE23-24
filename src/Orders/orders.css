@@ -1,0 +1,28 @@
+.Orders{
+    display: flex; 
+    text-decoration: none;
+    flex-direction: column;
+    
+}
+.Orders h4 {
+    margin-bottom: 0;
+}
+
+.Articles{
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 1.5em;
+}
+.Image img{
+    display: flex;
+    position: left;
+    margin-right: 15px;
+    height: auto;
+    width: 10em;
+}
+
+.Article__values{
+    flex-direction: row;    
+    justify-content: center;
+    margin-top: 3em;
+}

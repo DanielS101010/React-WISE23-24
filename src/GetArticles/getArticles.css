@@ -1,0 +1,40 @@
+.All__articles{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.article__link{
+    text-decoration: none;
+}
+
+.article__link:hover,
+.article__link:active{
+    background-color: rgb(230, 230, 230);
+}
+.Image img{
+    position: left;
+    margin-right: 15px;
+    height: auto;
+    width: 10em;
+}
+
+.Article__values {
+    flex-direction: column;
+}
+
+.Description{
+    display: flex;
+    width: 80%;
+    margin-bottom: 2em;
+    text-decoration: none;
+}
+
+.Article__values > div {
+    margin-bottom: 0.5em; 
+    color: black;
+}
+
+span{
+    margin-right: 10em;
+    justify-content: space-between;
+}

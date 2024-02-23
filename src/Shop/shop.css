@@ -1,0 +1,16 @@
+.Shop{
+    display: flex; 
+    text-decoration: none;
+}
+
+.Filter{
+    position:absolute;
+    left: 0.5em;
+}
+
+.Products{
+    position: relative;
+    left: 11em;
+    top: 0.5em;
+    margin-bottom: 0.5em;
+}

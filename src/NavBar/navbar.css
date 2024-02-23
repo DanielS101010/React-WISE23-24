@@ -1,0 +1,39 @@
+.NavBar {
+    display: flex;
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+.NavBar__Buttons {
+    display: flex;
+    font-weight: bold;
+}
+
+.NavBar__Button {   
+    background-color: lightgrey;
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+    justify-items: center;
+}
+
+.NavBar__Button:active,
+.NavBar__Button:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.NavBar__Buttons>a {
+    margin: 0.75em;
+    text-decoration: none;
+    color: black;
+}
+.NavBar__Title {
+    display: flex;
+    cursor: pointer;
+}
+.Image{
+    height: 75px;
+    width: auto; 
+}
